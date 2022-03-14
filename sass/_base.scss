@@ -1,0 +1,53 @@
+html, body {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto Mono';
+  line-height: 1.5;
+  background-color: $background;
+  color: $foreground;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+header, footer {
+  background-color: $header-footer-bg;
+  background-image: $header-background-img;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: 1px solid $link-color;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:active {
+    transform: translateY(5px);
+  }
+
+  &:hover {
+    font-weight: bold;
+  }
+
+  &.header {
+    color: #fff;
+    border-bottom-color: #111;
+
+    &:hover {
+      border-bottom-color: white;
+    }
+  }
+}

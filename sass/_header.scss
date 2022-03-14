@@ -1,0 +1,33 @@
+header {
+  padding: 2rem 3rem;
+
+  nav a {
+    margin-right: 2rem;
+    text-transform: uppercase;
+  }
+
+  .header__logo {
+    color: black;
+    border-bottom: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    text-shadow: 1px 1px white;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  header {
+    padding: 1rem 0;
+  }
+  nav {
+    text-align: center;
+  }
+  .header__logo {
+    display: block;
+  }
+}

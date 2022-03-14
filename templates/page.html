@@ -1,0 +1,30 @@
+{% extends "doc.html" %}
+
+{% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
+{% block doc_content %}
+  <h1>{{ page.title }}</h1>
+  {#
+    In case we ever want to include a table of contents on the top of a page
+    we can uncomment this and style it however we want. Would it make more
+    sense to just increase the depth of links in our sidebar?
+  #}
+  {# {% if page.toc %}
+  <ul>
+  {% for h1 in page.toc %}
+      <li>
+          <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+          {% if h1.children %}
+              <ul>
+                  {% for h2 in h1.children %}
+                      <li>
+                          <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                      </li>
+                  {% endfor %}
+              </ul>
+          {% endif %}
+      </li>
+  {% endfor %}
+  </ul>
+  {% endif %} #}
+  {{ page.content | safe }}
+{% endblock doc_content %}

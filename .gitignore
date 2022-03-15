@@ -1,0 +1,2 @@
+# Ignore any files produced by `zola serve` or `zola build`
+public/

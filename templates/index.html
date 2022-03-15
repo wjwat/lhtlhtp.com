@@ -11,9 +11,10 @@
 <body>
   <header>
     <nav>
-      <a class="header__logo" href="/">LHTLHTP</a>
+      <a class="header__logo" href="/">(LHT)LHTP</a>
       <a class="header" href="https://www.learnhowtoprogram.com/">LHTP</a>
       <a class="header" href="https://www.epicodus.com/">Epicodus</a>
+      <a class="header" href="https://epicenter.epicodus.com/">Epicenter</a>
       <div class="search-container">
         <input id="search" type="search" placeholder="🔎 Search the docs">
   
@@ -51,7 +52,11 @@
   </div>
   </main>
   <footer>
-    {# ©{{ now() | date(format="%Y")}} - <a>LHTLHTP Team</a> #}
+    <p>(c){{ now() | date(format="%Y")}} -- LHTLHTP Team
+    {% if page.updated %}
+    | Page Last Updated: {{ page.updated }}
+    {% endif %}
+    </p>
   </footer>
 
   <script type="text/javascript" src="{{ get_url(path="elasticlunr.min.js") }}"></script>

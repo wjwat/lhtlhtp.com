@@ -8,7 +8,8 @@
     we can uncomment this and style it however we want. Would it make more
     sense to just increase the depth of links in our sidebar?
   #}
-  {# {% if page.toc %}
+  {#
+  {% if page.toc %}
   <ul>
   {% for h1 in page.toc %}
       <li>
@@ -25,6 +26,7 @@
       </li>
   {% endfor %}
   </ul>
-  {% endif %} #}
+  {% endif %}
+  #}
   {{ page.content | safe }}
 {% endblock doc_content %}

@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  font-family: 'Roboto Mono';
+  font-family: $font-family;
   line-height: 1.5;
   background-color: $background;
   color: $foreground;

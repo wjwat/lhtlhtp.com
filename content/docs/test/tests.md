@@ -19,6 +19,64 @@ test how things look, and style them to your hearts content.
 
 {{ youtube(id="dqheDZH_mNc") }}
 
+## Code Snippet
+
+```cs,linenos
+var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id)
+    .Select(x => x.ShowId)
+    .Distinct()
+    .ToList();
+var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
+```
+
+### linenos
+
+```cs,linenos
+var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id)
+    .Select(x => x.ShowId)
+    .Distinct()
+    .ToList();
+var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
+```
+
+### linenos,linenostart=5
+
+```cs,linenos,linenostart=5
+var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id)
+    .Select(x => x.ShowId)
+    .Distinct()
+    .ToList();
+var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
+```
+
+### linenos,hl_lines=1 3 4
+
+```cs,linenos,hl_lines=1 3-4
+var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id)
+    .Select(x => x.ShowId)
+    .Distinct()
+    .ToList();
+var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
+```
+
+### linenos,hide_lines=1-4
+
+```cs,linenos,hide_lines=1-4
+var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id)
+    .Select(x => x.ShowId)
+    .Distinct()
+    .ToList();
+var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
+```
+
+### long line
+```cs
+var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id).Select(x => x.ShowId).Distinct().ToList();
+var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
+```
+
+## Long Text Below
+
 Zalmoxes Noasaurus Bagualosaurus Arkansaurus Megaraptor Atlasaurus Rubeosaurus Palaeoscincus Austrosaurus Dasygnathus Gigantoscelus Argyrosaurus Hexinlusaurus Pinacosaurus Kryptops Ammosaurus Eoraptor Machairasaurus Cardiodon Juratyrant Elrhazosaurus Helioceratops Zigongosaurus Centemodon Wadhurstia Ajkaceratops Acheroraptor Protorosaurus Beelemodon Martharaptor Ischisaurus Khaan Arstanosaurus Gigantosaurus Utahceratops Nipponosaurus Saturnalia Iguanodon Zhuchengosaurus Prenocephale Didanodon Atlasaurus Aetonyx Xuwulong Lexovisaurus.
 
 Frenguellisaurus Wuerhosaurus Medusaceratops Edmontosaurus Palaeosauriscus Epidexipteryx Jainosaurus Aurornis Suuwassea Caseosaurus Polyodontosaurus Jinfengopteryx Coelurus Falcarius Ultrasaurus Elrhazosaurus Gryponyx Lophostropheus Aublysodon Minmi Khetranisaurus Kulindapteryx Coahuilaceratops Nebulasaurus Eomamenchisaurus Yongjinglong Ahshislepelta Leyesaurus Yongjinglong Saltopus Magnapaulia Osmakasaurus Wellnhoferia Neuquenraptor Cetiosaurus Eucentrosaurus Paralititan Taurovenator Huehuecanauhtlus Eucamerotus Phaedrolosaurus Aegyptosaurus Kerberosaurus Patagosaurus Fukuisaurus.

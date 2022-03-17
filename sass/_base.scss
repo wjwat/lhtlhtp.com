@@ -1,5 +1,5 @@
 html, body {
-  font-size: 16px;
+  font-size: 1.1rem;
   height: 100%;
 }
 
@@ -15,7 +15,6 @@ body {
 }
 
 main {
-  padding: 1rem;
   flex-grow: 1;
 }
 
@@ -38,8 +37,11 @@ a {
     transform: translateY(5px);
   }
 
+  // TODO: Fix this to look nicer. Having a font-weight: bold on hover was
+  // causing the nav bar to push our main content over so don't do that.
   &:hover {
-    font-weight: bold;
+    color: blue;
+    border-bottom: 1px solid blue;
   }
 
   &.header {

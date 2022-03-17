@@ -15,7 +15,7 @@ test how things look, and style them to your hearts content.
 
 ##### Header level 5
 
-###### Header level 6
+###### Header level 6 {#manual id}
 
 {{ youtube(id="dqheDZH_mNc") }}
 

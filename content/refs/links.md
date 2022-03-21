@@ -33,8 +33,9 @@ a pull request at [github.com/wjwat/lhtlhtp.com](https://github.com/wjwat/lhtlht
 
 ## C#
 
-- If there are any good C# references please open an issue to help us fill
-  this section in!
+- [Learn Razor Pages](https://www.learnrazorpages.com/)
+
+  A fantastic resource for helping to learn the ins and outs of Razor Pages.
 
 ## Ruby
 
@@ -50,3 +51,9 @@ a pull request at [github.com/wjwat/lhtlhtp.com](https://github.com/wjwat/lhtlht
 
 - If there are any good React references please open an issue to help us fill
   this section in!
+
+## Odds & Ends
+
+- [GitHub Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+  Use these to add some color to your README.

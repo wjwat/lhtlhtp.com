@@ -1,6 +1,7 @@
 +++
-redirect_to = "docs/welcome/getting-started"
-updated = 2022-03-16
+template = "page.html"
+redirect_to = "welcome/getting-started"
+updated = 2022-03-20
 +++
 
 Welcome

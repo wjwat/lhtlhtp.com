@@ -48,8 +48,8 @@ don't worry! We've got steps to install Zola on Windows below.
 - Navigate to the [Zola releases page on GitHub](https://github.com/getzola/zola/releases)
 - Under `Assets` select the file with `windows` in it's name.<br>
   Ex: `zola-v0.15.3-x86_64-pc-windows-msvc.zip`
-  Please note that the version of Zola may have changed since this document was
-  written.
+  Please note that the version of Zola listed in this section may have changed
+  since this document was written.
 - After the file is downloaded extract it to the directory where you would like
   to store it. Windows programs are usually installed into the `Program Files`
   directory under the `C:` drive, but it is perfectly acceptable to install it

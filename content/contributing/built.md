@@ -1,23 +1,24 @@
 +++
-title = "Contributing"
-weight = 2
-updated = 2022-03-20
+title = "How the Site is Built"
+weight = 1
+updated = 2022-03-21
 +++
 
-Here we will try to outline how this site is build, and how you might be able
+Here we will try to outline how this site is built, and how you might be able
 to contribute. Not every section will contain a detailed explanation, but
 instead will link out to relevant sites & pages on the web that should help you
-understand the technologies that are being used or referenced.
-
-## How This Site Is Built
+understand the technologies that are being used or referenced. There is a wealth
+of information to be learned in some of these links so don't feel discouraged if
+it feels like too much! Taking small steps, and firm footing, is always the best
+path forward if you're unsure.
 
 We've built {{ lhtlhtp() }} using the [static site generator](https://www.cloudflare.com/learning/performance/static-site-generator/)
 [Zola](https://www.getzola.org/documentation/getting-started/overview/). The
 sites content is written with [Markdown](https://en.wikipedia.org/wiki/Markdown)
 (specifically [CommonMark](https://commonmark.org/)), and is built using HTML
-templates with [SCSS](https://sass-lang.com/) providing the styling. Our goal was
+templates with [SCSS](https://sass-lang.com/) providing the styling. Our goal is
 to find a spot between flexibility and ease of use, and this page is written
-with the help of easing your transition into helping {{ repo() }}.
+with the intent of easing your transition into helping {{ repo() }}.
 
 ### Zola
 
@@ -86,11 +87,3 @@ speed is to take a look at this [cheat sheet](https://www.markdownguide.org/chea
 and the [basic](https://www.markdownguide.org/basic-syntax/) and 
 [extended](https://www.markdownguide.org/extended-syntax/) syntax sections as
 well.
-
-## Making a Pull Request
-
-[Instructions on making a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
-
-## Opening an Issue
-
-[Instructions on opening an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)

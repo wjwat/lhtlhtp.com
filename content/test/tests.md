@@ -75,6 +75,27 @@ var showsAttended = _db.ShowAttendee.Where(y => y.AttendeeId == id).Select(x => 
 var showsNotAttended = _db.Shows.Where(t => !showsAttended.Contains(t.ShowId));
 ```
 
+## Tables
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+## Footnotes
+
+Why don't you[^1] go down to the bottom of the page, and find our[^our] notes?
+
 ## Long Text Below
 
 Zalmoxes Noasaurus Bagualosaurus Arkansaurus Megaraptor Atlasaurus Rubeosaurus Palaeoscincus Austrosaurus Dasygnathus Gigantoscelus Argyrosaurus Hexinlusaurus Pinacosaurus Kryptops Ammosaurus Eoraptor Machairasaurus Cardiodon Juratyrant Elrhazosaurus Helioceratops Zigongosaurus Centemodon Wadhurstia Ajkaceratops Acheroraptor Protorosaurus Beelemodon Martharaptor Ischisaurus Khaan Arstanosaurus Gigantosaurus Utahceratops Nipponosaurus Saturnalia Iguanodon Zhuchengosaurus Prenocephale Didanodon Atlasaurus Aetonyx Xuwulong Lexovisaurus.
@@ -106,3 +127,7 @@ Apatodon Zby Spondylosoma Ceratonykus Arkansaurus Nectosaurus Hualianceratops Re
 Archaeodontosaurus Peloroplites Eoraptor Dahalokely Torilion Priconodon Beishanlong Sigilmassasaurus Omosaurus Daanosaurus Indosuchus Monkonosaurus Pycnonemosaurus Protecovasaurus Acrotholus Eoceratops Procompsognathus Austrocheirus Kentrurosaurus Yutyrannus Laquintasaura Sphenosaurus Velafrons Galesaurus Nodosaurus Yaleosaurus Sinornithomimus Giganotosaurus Brachyceratops Anthodon Vagaceratops Rachitrema Ceratosaurus Futalognkosaurus Kerberosaurus Ligabueino Tyrannosaurus Graciliraptor Antarctosaurus Siamodon Sinornithomimus Euhelopus Uintasaurus Ruehleia Huehuecanauhtlus.
 
 Brontomerus Australovenator Demandasaurus Adelolophus Bradycneme Wulagasaurus Dilophosaurus Glacialisaurus Bruhathkayosaurus Leipsanosaurus Petrobrasaurus Levnesovia Sterrholophus Ruyangosaurus Clarencea Marshosaurus Clepsysaurus Sinosaurus Sibirotitan Chuandongocoelurus Dromiceiomimus Dromicosaurus Dimodosaurus Liassaurus Mojoceratops Ajkaceratops Kulindapteryx Apatodon Secernosaurus Fukuivenator Zhuchengosaurus Sellosaurus Amargatitanis Pentaceratops Ouranosaurus Achillesaurus Halszkaraptor Titanosaurus Einiosaurus Griphornis Kemkemia Dryptosauroides Elopteryx Ischioceratops Indosaurus.
+
+[^1]: First note.
+
+[^our]: Second note.

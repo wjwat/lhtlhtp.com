@@ -17,3 +17,4 @@ highlight_theme = "charcoal"
 
 [extra]
 # Put all your custom variables here
+repo = "https://github.com/wjwat/lhtlhtp.com"

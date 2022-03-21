@@ -20,7 +20,7 @@ templates with [SCSS](https://sass-lang.com/) providing the styling. Our goal is
 to find a spot between flexibility and ease of use, and this page is written
 with the intent of easing your transition into helping {{ repo() }}.
 
-### Zola
+## Zola
 
 [Zola](https://www.getzola.org/) is an extremely fast static site generator
 written in the [Rust](https://www.rust-lang.org/) programming language. It's
@@ -61,7 +61,7 @@ don't worry! We've got steps to install Zola on Windows below.
 - After you have added it to your PATH you may need to restart your terminal, or
   your computer, to make sure it's accessible now.
 
-### SCSS / Sass
+## SCSS / Sass
 
 From [the Sass Wikipedia page](https://en.wikipedia.org/wiki/Sass_(stylesheet_language)):
 
@@ -79,7 +79,7 @@ is plentiful, and well written.
 For the difference between SCSS & Sass please take a look at [this answer](https://stackoverflow.com/a/5654471)
 on Stack Overflow.
 
-### Markdown
+## Markdown
 
 If you're not already familiar with it Markdown is a lightweight markup language
 that is prevalent in many places on and off the web. Your best bet to get up to

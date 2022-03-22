@@ -18,7 +18,7 @@ sites content is written with [Markdown](https://en.wikipedia.org/wiki/Markdown)
 (specifically [CommonMark](https://commonmark.org/)), and is built using HTML
 templates with [SCSS](https://sass-lang.com/) providing the styling. Our goal is
 to find a spot between flexibility and ease of use, and this page is written
-with the intent of easing your transition into helping {{ repo() }}.
+with the intent of easing your transition into helping {{ repo(text="contribute") }}.
 
 ## Zola
 
@@ -73,8 +73,8 @@ The [guide on the Sass site](https://sass-lang.com/guide) provides a solid 15
 minute overview of SCSS / Sass. Pay particular attention to **Variables**,
 **Nesting**, and **Partials**. Please note that we use SCSS instead of Sass
 which means declaration blocks are surrounded by curly braces, and every
-declaration ends with a semi-colon. As always the [documentation on the Sass site](https://sass-lang.com/documentation) 
-is plentiful, and well written.
+declaration ends with a semi-colon. The [documentation on the Sass site](https://sass-lang.com/documentation) 
+is plentiful and well written if you'd like to take a deeper dive into it.
 
 For the difference between SCSS & Sass please take a look at [this answer](https://stackoverflow.com/a/5654471)
 on Stack Overflow.

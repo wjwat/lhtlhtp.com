@@ -1,6 +1,6 @@
 +++
 title = "Site Structure"
-weight = 4
+weight = 3
 updated = 2022-03-21
 +++
 
@@ -15,12 +15,12 @@ around, and how to add content easily.
 
 ```
 ./
-├───.github           # Workflows, issue & pr templates
-│   └───workflows     # YAML workflow files
+├───.github
+│   └───workflows
 ```
 
 This section contains issue and pull request templates for use on 
-[GitHub.com](https://github.com/), and well as GitHub workflow actions (written
+[GitHub.com](https://github.com/), as well as GitHub workflow actions (written
 in YAML). Any work being done in here should be looked over carefully because
 this is where we keep our GitHub action that publishes the site.
 
@@ -41,10 +41,11 @@ this is where we keep our GitHub action that publishes the site.
 │   └───welcome
 ```
 
-Here we have the meat of the site. `content` lets Zola know where we're storing
-the content for our site, and each folder within content represents a `section`
-as defined by Zola. Within each section you'll find an `_index.md`, and various
-other Markdown files that each represent a page contained within that section.
+Here we have the meat of the site. The `content` directory lets Zola know where
+we're storing the content for our site, and each folder within content
+represents a `section` as defined by Zola. Within each section you'll find an
+`_index.md`, and various other Markdown files that each represent a page
+contained within that section.
 
 ### Styling
 

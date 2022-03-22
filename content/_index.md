@@ -1,7 +1,5 @@
 +++
-template = "page.html"
 redirect_to = "welcome/getting-started"
-updated = 2022-03-20
 +++
 
 Welcome

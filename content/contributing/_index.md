@@ -8,6 +8,6 @@ insert_anchor_links = "left"
 
 Contributing
   - How the Site is Built
-  - Site Structure
-  - Opening Issues
+  - Issues & PRs
   - Contributing
+  - Site Structure

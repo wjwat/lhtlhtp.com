@@ -11,7 +11,27 @@ assume that everyone is approaching with the best intentions. This document
 sets some guidelines to help keep things consistent across the site to make it
 easier to contribute in the future.
 
+## Writing The Code & Content
+
+- [Install Zola](https://www.getzola.org/documentation/getting-started/installation/) (we also have [a section](http://127.0.0.1:1111/contributing/built/#zola) on installing Zola on our site.)
+- Fork the repo to your account
+- Clone the repo to your local machine
+- Create a branch to make your changes on.
+- Open the file/files you'd like to edit
+- In your terminal type `zola serve` in the top level directory of the site.
+  This will build a copy of the site and host it for you so you can the changes
+  locally as you make them.
+- Edit those files
+- Push the changes to your forked copy of the site
+- Open a pull request to get your changes approved.
+
 ## General Guidelines
+
+- If you find yourself needing to style a particular piece of text in a certain 
+  way in many different parts of the site consider using a shortcode. This gives
+  us the flexibility of changing that text in a singular spot rather than having
+  to comb through all the content files to change it in every single location.
+  There is a list of current shortcodes in the top level of the {{ repo() }}.
 
 ### Cleanup
 

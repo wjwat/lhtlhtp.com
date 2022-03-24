@@ -1,7 +1,7 @@
 +++
 title = "How the Site is Built"
 weight = 1
-updated = 2022-03-21
+updated = 2022-03-23
 +++
 
 Here we will try to outline how this site is built, and how you might be able
@@ -16,7 +16,8 @@ We've built {{ lhtlhtp() }} using the [static site generator](https://www.cloudf
 [Zola](https://www.getzola.org/documentation/getting-started/overview/). The
 sites content is written with [Markdown](https://en.wikipedia.org/wiki/Markdown)
 (specifically [CommonMark](https://commonmark.org/)), and is built using HTML
-templates with [SCSS](https://sass-lang.com/) providing the styling. Our goal is
+templates with [SCSS](https://sass-lang.com/) providing the styling. Zola also
+makes use of the [Tera](https://tera.netlify.app/) template engine. Our goal is
 to find a spot between flexibility and ease of use, and this page is written
 with the intent of easing your transition into helping {{ repo(text="contribute") }}.
 
@@ -44,7 +45,7 @@ package manager like [Scoop](https://scoop.sh/), or
 [Chocolatey](https://chocolatey.org/). If you're not comfortable with that then
 don't worry! We've got steps to install Zola on Windows below.
 
-#### Zola Install Instructions for Windows Users
+#### Installing Zola on Windows
 
 - Navigate to the [Zola releases page on GitHub](https://github.com/getzola/zola/releases)
 - Under `Assets` select the file with `windows` in it's name.<br>
@@ -87,3 +88,12 @@ speed is to take a look at this [cheat sheet](https://www.markdownguide.org/chea
 and the [basic](https://www.markdownguide.org/basic-syntax/) and 
 [extended](https://www.markdownguide.org/extended-syntax/) syntax sections as
 well.
+
+## Tera
+
+[Tera](https://tera.netlify.app/) is used in Zola to help structure content in
+the HTML templates, provide access to variables defined in `config.toml` and
+front matter, and conditional display in a page. Tera is also used to generate
+the navigation menu on the side of this site. Having an understanding of Tera
+will be helpful to you if you wish to use, or write, shortcodes, and when
+editing the files in the `templates` directory.

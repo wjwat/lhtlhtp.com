@@ -3,6 +3,10 @@ title = "Contributors"
 weight = 1
 updated = 2022-03-16
 
+# Use a shortcode for these that will include some icons/styling for names
+# links
+# ![GitHub](/images/github-icon.svg)
+
 # Keep this section short and to the point, please! We can adjust the layout, and
 # styling but your name/display name and a link or two would be ideal. Also keep
 # it generally alphabetical.

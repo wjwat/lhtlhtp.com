@@ -4,12 +4,12 @@ weight = 1
 updated = 2022-03-14
 +++
 
-Welcome to **LHTLHTP.com**, your official companion site to
+Welcome to {{ lhtlhtp() }}, your official companion site to
 [LearnHowToProgram.com](https://www.learnhowtoprogram.com/)
 
 ## What To Expect
 
-**LHTLHTP.com** does not exist to make you a developer by itself. We are here to
+{{ lhtlhtp() }} does not exist to make you a developer by itself. We are here to
 help you in the course of your studies at Epicodus, and hopefully ease that move
 into a developer (or developer adjacent) role.
 

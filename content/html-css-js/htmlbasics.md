@@ -1,5 +1,5 @@
 +++
-title = "Intro"
+title = "HTML Basics"
 weight = 1
 +++
 
@@ -24,8 +24,8 @@ Pro Tip: After you've created an html document and opened it up with VS code, if
 </html>
 ```
 
-- The three *meta* lines in the header aren't important right now, so they can be deleted.  
-- There's no *script* or *stylesheet* tags in this, being as we're talking about HTML at the moment.
+- The three &lt;meta&gt; lines in the header aren't important right now, so they can be deleted.  
+- There's no &lt;script&gt; or &lt;link&gt; tags in the header, being as we're talking about strictly about HTML at the moment. Be sure to check out CSS Basics & JS Basics for how those tags are handled.
 
 Take note of the indentation, as this is something they'll be looking at throughout your time at epicodus. And they aren't being sticklers about it: this makes your code easier to read and is a best-of-the-best practice for coders all across the 9142 galaxies or whatever. 
 
@@ -41,4 +41,4 @@ Another healthy tip, here are a list of some of the common HTML elements that yo
 - There are also &lt;h1&gt; through &lt;h5&gt; tags to resize your text to be used like as a header.  
 [There are many more in addition to these as well](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), but it's not bad to keep it simple while you can.
 
-Should more be added to this page? [Let us know!](../contributing/contributing.md)
+Should more be added to this page? [Let us know!](@/contributing/issues.md)

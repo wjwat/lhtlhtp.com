@@ -5,42 +5,40 @@ weight = 1
 
 So there you are, relaxing in a calm, sunny meadow. You gently curl back the title page of your favorite Sabrina the Teenage Witch fanfiction novel to come across this: ```<!DOCTYPE html>```
 
-What's this? Someone sold you "Sabrina XVI" in the wrong language. Lucky for you, HTML is the language you'd want to see if you're a student at Epicodus, as it is the basic structure of our story. Let's get into the vitals:
+What's this? Someone sold you "Sabrina XVI" in the wrong language. Lucky for you, HTML is the language you'd want to see if you're a student at Epicodus, as it is the basic structure of our story. 
+
+Pro Tip: After you've created an html document and opened it up with VS code, if the first thing you type is ! followed by the enter key, a basic HTML template will magically appear. It'll look something like this:
 
 ```html
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-  <title>Sabrina XVI: Lost In Time</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <h3>Chapter 1: Oops! He did it again!</h3>
-  <p>Salem leaped down from the refridgerator to offer some wise advice: 'Harvey is only a human. Give him another chance.'</p>
-  <p>Another chance? What did he do this time? This is only the second paragraph of our story, as indicated from the "p" tags that surround this.</p>
+  
 </body>
 </html>
 ```
 
-The majority of the time, the starting content of your HTML document is going to look a little like this. For a review of what each thing is, check out [this](https://www.learnhowtoprogram.com/introduction-to-programming/git-html-and-css/hypertext-markup-language-html).
+- The three *meta* lines in the header aren't important right now, so they can be deleted.  
+- There's no *script* or *stylesheet* tags in this, being as we're talking about HTML at the moment.
 
-Pro tip: If you're just starting an HTML document (ie: index.html), you can type "!" and press "enter" and it should give you a template very similar to the one on LHTP.com.
+Take note of the indentation, as this is something they'll be looking at throughout your time at epicodus. And they aren't being sticklers about it: this makes your code easier to read and is a best-of-the-best practice for coders all across the 9142 galaxies or whatever. 
 
-Take note of the indentation, as this is something they'll be looking at throughout your time at epicodus. And they aren't being sticklers about it: this makes your code easier to read and is a best-of-the-best practice for coders all across the 9142 galaxies or whatever.
+VSCode and the majority of code-specific text editors will create vertical lines whenever you open a tag and intend for the content that's inside of it. Use these lines to match up your [opening and closing](https://www.semrush.com/blog/html-tags-list/) tags.
 
-Your code should follow a format like this:
+Another healthy tip, here are a list of some of the common HTML elements that you can use to "style" your text without using CSS:
+- &lt;b&gt; <b>bolds your text</b> &lt;/b&gt;  
+- &lt;strong&gt; <strong>bold, but notes to another coder what's important</strong> &lt;/strong&gt;
+- &lt;i&gt; <i>italizes your text</i> &lt;/i&gt;
+- &lt;em&gt; <em>similar to italizes, but notes to another coder what's in emphasis</em> &lt;/em&gt;
+- &lt;u&gt; <u>underlines your text </u> &lt;/u&gt;
+- &lt;strike&gt; <strike>puts a strike through your text</strike> &lt;/strike&gt;
+- There are also &lt;h1&gt; through &lt;h5&gt; tags to resize your text to be used like as a header.  
+[There are many more in addition to these as well](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), but it's not bad to keep it simple while you can.
 
-```html
-...
-<body>
-  <h3>This is inside the body so it's indented.</h3>
-  <div class="example">
-    <h3>Content inside something else gets indented.</h3>
-    <p>Cats and boots and cats and boots and...</p>
-  </div> 
-  <h3>Now that div indentation ended because the /tag closed it</h3>
-</body>
-...
-```
-
-
-
+Should more be added to this page? [Let us know!](../contributing/contributing.md)

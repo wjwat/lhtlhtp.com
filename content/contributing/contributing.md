@@ -49,7 +49,7 @@ comfortable with using GitHub to open issues and make pull requests:
   is becoming too long, or gets too technical, open a  discussion on the {{
   repo() }} and see if another set of eyes can help you break a section down, or
   give a different perspective to help a reader understand.
-- Pages should not be too long to read. Anything past the 25 minute mark should
+- Pages should not be too long to read. Anything past the 10 minute mark should
   be a red flag, and should definitely be reviewed to make sure it's all
   necessary, or if the content might be better split into different pages.
 - Please only use secondary headers and below for your sections (Ex: ##, ###,

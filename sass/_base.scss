@@ -27,7 +27,7 @@ a {
   color: $link-color;
   text-decoration: none;
   cursor: pointer;
-  border-bottom: 1px solid $link-color;
+  // border-bottom: 1px solid $link-color;
 
   &:visited {
     color: $link-color;
@@ -61,4 +61,38 @@ blockquote {
 .site-name {
   font-style: italic;
   font-weight: bold;
+}
+
+.footnote-definition {
+  border-left: 2px solid $header-footer-bg;
+  margin-bottom: 1rem;
+  padding-right: 10px;
+
+  sup {
+    font-weight: bold;
+    padding-left: 5px;
+  }
+
+  p {
+    margin: 0 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+.footnote-reference {
+  font-weight: bold;
+  margin-left: 1px;
+
+  // &:before { content: "[" }
+  // &:after  { content: "]" }
+}
+
+.contributor-info {
+  p {
+    margin: 0;
+
+    &:before {
+      content: "• ";
+    }
+  }
 }

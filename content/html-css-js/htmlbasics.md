@@ -1,13 +1,20 @@
 +++
 title = "HTML Basics"
 weight = 1
+updated = 2022-03-26
 +++
 
-So there you are, relaxing in a calm, sunny meadow. You gently curl back the title page of your favorite Sabrina the Teenage Witch fanfiction novel to come across this: ```<!DOCTYPE html>```
+So there you are, relaxing in a calm, sunny meadow. You gently curl back the
+title page of your favorite Sabrina the Teenage Witch fanfiction novel to come
+across this: ```<!DOCTYPE html>```
 
-What's this? Someone sold you "Sabrina XVI" in the wrong language. Lucky for you, HTML is the language you'd want to see if you're a student at Epicodus, as it is the basic structure of our story. 
+What's this? Someone sold you "Sabrina XVI" in the wrong language. Lucky for
+you, HTML is the language you'd want to see if you're a student at Epicodus, as
+it is the basic structure of our story. 
 
-Pro Tip: After you've created an html document and opened it up with VS code, if the first thing you type is ! followed by the enter key, a basic HTML template will magically appear. It'll look something like this:
+Pro Tip: After you've created an html document and opened it up with VS code, if
+the first thing you type is ! followed by the enter key, a basic HTML template
+will magically appear. It'll look something like this:
 
 ```html
 <!DOCTYPE html>
@@ -24,14 +31,24 @@ Pro Tip: After you've created an html document and opened it up with VS code, if
 </html>
 ```
 
-- The three &lt;meta&gt; lines in the header aren't important right now, so they can be deleted.  
-- There's no &lt;script&gt; or &lt;link&gt; tags in the header, being as we're talking about strictly about HTML at the moment. Be sure to check out CSS Basics & JS Basics for how those tags are handled.
+- The three &lt;meta&gt; lines in the header aren't important right now, so they
+  can be deleted.  
+- There's no &lt;script&gt; or &lt;link&gt; tags in the header, being as we're
+  talking about strictly about HTML at the moment. Be sure to check out CSS
+  Basics & JS Basics for how those tags are handled.
 
-Take note of the indentation, as this is something they'll be looking at throughout your time at epicodus. And they aren't being sticklers about it: this makes your code easier to read and is a best-of-the-best practice for coders all across the 9142 galaxies or whatever. 
+Take note of the indentation, as this is something they'll be looking at
+throughout your time at epicodus. And they aren't being sticklers about it: this
+makes your code easier to read and is a best-of-the-best practice for coders all
+across the 9142 galaxies or whatever. 
 
-VSCode and the majority of code-specific text editors will create vertical lines whenever you open a tag and intend for the content that's inside of it. Use these lines to match up your [opening and closing](https://www.semrush.com/blog/html-tags-list/) tags.
+VSCode and the majority of code-specific text editors will create vertical lines
+whenever you open a tag and intend for the content that's inside of it. Use
+these lines to match up your [opening and
+closing](https://www.semrush.com/blog/html-tags-list/) tags.
 
-Another healthy tip, here are a list of some of the common HTML elements that you can use to "style" your text without using CSS:
+Another healthy tip, here are a list of some of the common HTML elements that
+you can use to "style" your text without using CSS:
 - &lt;b&gt; <b>bolds your text</b> &lt;/b&gt;  
 - &lt;strong&gt; <strong>bold, but notes to another coder what's important</strong> &lt;/strong&gt;
 - &lt;i&gt; <i>italizes your text</i> &lt;/i&gt;

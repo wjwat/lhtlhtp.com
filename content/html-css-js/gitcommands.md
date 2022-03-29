@@ -59,7 +59,7 @@ intimidating. Just a little.)
   need to jump back in time.
 
   Not seeing the command you want? [There's plenty more.](https://git-scm.com/docs)
-  Checkout our section of GitHub for more commands when you start wondering into
+  Checkout our section of GitHub for more commands when you start wandering into
   repositories.
 
 

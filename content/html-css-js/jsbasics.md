@@ -35,7 +35,7 @@ function orderOfArguements(first, second, third) {
   console.log(first);
   console.log(second);
   console.log(third);
-} // would print "pb&j"
+} // would console.log "pb" "&" "j"
 ```
 
 If you're looking to return a value from a function, the
@@ -51,10 +51,10 @@ yourself writing code.
 W3Schools has a pretty useful page on [JS
 operators](https://www.w3schools.com/js/js_operators.asp), if you need to remind
 yourself how to increment or return remainders using them. Aunt Sally will be
-estatic when she hears you've been thinking about her: remember that [order of
+ecstatic when she hears you've been thinking about her: remember that [order of
 operations](https://www.mathsisfun.com/operation-order-pemdas.html) is used when
 calculating. (For example: 2 + 4 * 2 = 10, not 12)
 
-Javascript concepts sometimes require some additional explanation, so check out
-more cheatsheets under "Intermediate JS" for more gems. Think we're wrong? [Come
-at us!](@/contributing/issues.md)
+Javascript concepts sometimes require some additional explanation, so check out "Intermediate JS" for more gems. 
+
+Think we're wrong? [Come at us](@/contributing/issues.md)!

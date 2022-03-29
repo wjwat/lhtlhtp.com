@@ -9,8 +9,8 @@ teaches that we call to our script file in our HTML file by putting
 ```html
 <script src="js/scripts.js"></script>
   ```
-in the &lt;head&gt; tag. <i>(If you use an off-site script that specifies
-putting it at the end of your &lt;body&gt; tag, do that instead.)</i> Note that
+in the &lt;head&gt; tag. *(If you use an off-site script that specifies
+putting it at the end of your &lt;body&gt; tag, do that instead.)* Note that
 unlike linking to our CSS file, &lt;script&gt; needs to have a closing tag.
 
 [Scoping](https://www.w3schools.com/js/js_scope.asp) your variables is crucial
@@ -60,6 +60,6 @@ ecstatic when she hears you've been thinking about her: remember that [order of
 operations](https://www.mathsisfun.com/operation-order-pemdas.html) is used when
 calculating. (For example: 2 + 4 * 2 = 10, not 12)
 
-Javascript concepts sometimes require some additional explanation, so check out "Intermediate JS" for more gems. 
+Javascript concepts sometimes require some additional explanation, so check out **Intermediate JS** for more gems. 
 
 Think we're wrong? [Come at us](@/contributing/issues.md)!

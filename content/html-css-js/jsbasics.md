@@ -39,9 +39,9 @@ function orderOfArguments(first, second, third) {
 ```
 
 When you're naming a variable or function, be sure to name them in [camel
-case](https://techterms.com/definition/camelcase): (ie: "nameOfVariable" or
+case](https://techterms.com/definition/camelcase). (ie: "nameOfVariable" or
 "functionName"). No spaces, first letter is lowercase, and then every other word
-uppercase. 
+starts uppercase. 
 
 If you're looking to return a value from a function, the
 [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)

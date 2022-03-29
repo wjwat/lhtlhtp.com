@@ -9,9 +9,9 @@ teaches that we call to our script file in our HTML file by putting
 ```html
 <script src="js/scripts.js"></script>
   ```
-in the &lt;head&gt; tag. <i>(If you use CDNs that specify putting it at the end
-of your &lt;body&gt; tag, do that instead.)</i> Note that unlike linking to our
-CSS file, &lt;script&gt; needs to have a closing tag.
+in the &lt;head&gt; tag. <i>(If you use an off-site script that specifies
+putting it at the end of your &lt;body&gt; tag, do that instead.)</i> Note that
+unlike linking to our CSS file, &lt;script&gt; needs to have a closing tag.
 
 [Scoping](https://www.w3schools.com/js/js_scope.asp) your variables is crucial
 in Javascript, as it allows us make code that is more
@@ -29,19 +29,24 @@ of those arguments are referred to as parameters). The order of those arguments?
 Big deal.
 
 ```js
-orderOfArguements("pb", "&", "j"); // call function
+orderOfArguments("pb", "&", "j"); // call function
 
-function orderOfArguements(first, second, third) {
+function orderOfArguments(first, second, third) {
   console.log(first);
   console.log(second);
   console.log(third);
 } // would console.log "pb" "&" "j"
 ```
 
+When you're naming a variable or function, be sure to name them in [camel
+case](https://techterms.com/definition/camelcase): (ie: "nameOfVariable" or
+"functionName"). No spaces, first letter is lowercase, and then every other word
+uppercase. 
+
 If you're looking to return a value from a function, the
 [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
 statement is your friend. When your code reaches it, it will exit/stop the
-function its running and send back whatever you've specified to return (even if
+function it's running and send back whatever you've specified to return (even if
 it doesn't return anything!).
 
 [Methods](@/javascript/methods.md) are amazing tools to arm yourself with (even

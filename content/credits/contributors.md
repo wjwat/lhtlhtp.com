@@ -19,4 +19,4 @@ updated = 2022-03-26
 {{ contributor(name="Brenna Lavin", github="lavinbrenna") }}
 {{ contributor(name="Ryan Bass", github="probablynotryan") }}
 {{ contributor(name="William Jameson", github="wcjameson") }}
-{{ contributor(name="Will W.", github="wjwat") }}
+{{ contributor(name="Will W.", github="wjwat", linkedin="wjwat", site="https://wjwat.org/", site_name="wjwat.org") }}

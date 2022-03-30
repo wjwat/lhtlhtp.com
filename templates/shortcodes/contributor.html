@@ -4,5 +4,12 @@
       <img src="/images/github-icon.svg" style="width: 1rem" />
       <a href="https://github.com/{{ github }}">{{ github }}</a>
     {% endif %}
+    {% if linkedin %} /
+      <img src="/images/linkedin.svg" style="width: 1rem" />
+      <a href="https://www.linkedin.com/in/{{ linkedin }}/">{{ linkedin }}</a>
+    {% endif %}
+    {% if site and site_name %} /
+      <a href="{{ site }}">{{ site_name }}</a>
+    {% endif %}
     </p>
 </div>

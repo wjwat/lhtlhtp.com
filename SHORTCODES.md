@@ -4,13 +4,22 @@ If you'd like to add your own shortcode please update this document to provide
 a place for people unfamiliar with [Zola](https://www.getzola.org/) & [shortcodes](https://www.getzola.org/documentation/content/shortcodes/)
  the ability to use them throughout the site.
 
-## contributor(name=<str>, github=<str>)
+## contributor(...)
 
 Creates a bulleted item to use give credit to contributor with `name`.
 
-#### github=
+**name=<str>**
+: Name you'd like to be credited with, required to use shortcode
 
-This should be a username for this contributors GitHub, but not the full URL.
+github=<str>
+: Username on github
+
+linkedin=<str>
+: Public URL name in your linkedin URL (Ex: https://www.linkedin.com/in/<name>)
+
+site=<str>
+site_name=<str>
+: Site URL, and site name. Will link to *site* with text of *site_name*
 
 ## issue()
 

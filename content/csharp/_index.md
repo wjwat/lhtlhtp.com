@@ -2,6 +2,6 @@
 title = "C#"
 weight = 5
 sort_by = "weight"
-redirect_to = "csharp/intro"
+redirect_to = "welcome/getting-started"
 insert_anchor_links = "left"
 +++

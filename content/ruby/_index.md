@@ -2,6 +2,6 @@
 title = "Ruby"
 weight = 7
 sort_by = "weight"
-redirect_to = "ruby/intro"
+redirect_to = "welcome/getting-started"
 insert_anchor_links = "left"
 +++

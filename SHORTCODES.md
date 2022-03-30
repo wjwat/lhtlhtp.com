@@ -8,6 +8,8 @@ a place for people unfamiliar with [Zola](https://www.getzola.org/) & [shortcode
 
 Creates a bulleted item to use give credit to contributor with `name`.
 
+Accepts the following parameters:
+
 **name=<str>**
 : Name you'd like to be credited with, required to use shortcode
 
@@ -37,9 +39,7 @@ longer pieces of text.
 Provides a link to the repo with a default text of `repo`, or the value passed
 in as `text`.
 
-#### text=
-
-This parameter accepts a string which is used to provide the text in a generated
-link.
+text=<str>
+: Accecpts a string which is used to provide the text in a generated link.
 
 `{{ repo(text="contribute") }}` will produce `<a href="path/to/repo">contribute</a>`

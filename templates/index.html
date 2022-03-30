@@ -32,6 +32,7 @@
       <ul>
         {% for p in section.subsections %}
             {% set subsection = get_section(path=p) %}
+            {% if subsection.title == "test" %}{% continue %}{% endif %}
             <li>
                 <span class="documentation__sidebar__title">{{ subsection.title }}</span>
                 <ul>

@@ -1,6 +1,6 @@
 +++
 title = "Looping"
-weight = 5
+weight = 6
 +++
 
 At this point you should feel fairly solid about creating simple webpages and

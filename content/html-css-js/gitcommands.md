@@ -42,7 +42,7 @@ intimidating. Just a little.)
   and describe briefly what changes the files underwent. Be sure to shift-enter
   a couple lines down within the note and put "Co-authored-by: Yogi
   &lt;yogi.bear@picnicbasket.net&gt;" so your pal gets street cred too. Example:
-  ```git
+  ```bash
   $ git commit -m "add header styling
 
   Co-authored-by: Felix LastName <felixthecat@meow.mix>"

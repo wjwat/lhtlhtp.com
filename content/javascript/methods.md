@@ -1,7 +1,7 @@
 +++
 updated = 2022-03-27
 title = "Methods"
-weight = 2
+weight = 1
 +++
 
 ## Quick Reference

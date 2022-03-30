@@ -1,7 +1,7 @@
 +++
 updated = 2022-03-27
 title = "RegEx"
-weight = 3
+weight = 2
 +++
 
 

@@ -82,9 +82,6 @@ blockquote {
 .footnote-reference {
   font-weight: bold;
   margin-left: 1px;
-
-  // &:before { content: "[" }
-  // &:after  { content: "]" }
 }
 
 .contributor-info {
@@ -96,3 +93,27 @@ blockquote {
     }
   }
 }
+
+
+// This needs a lot of work, and may be best used in a shortcode so we can do
+// things like merge columns/rows, and keep our data in something saner like
+// JSON/CSV/YAML
+// ref: https://github.com/getzola/zola/issues/1230
+// .documentation__content > table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   border-spacing: 0;
+//   margin: 1rem auto;
+
+//   th {
+//     padding: 1px 15px;
+
+//     border-top: 2px solid #111;
+//     border-bottom: 1px solid #111;
+//   }
+
+//   tbody {
+//     border-top: 1px solid #111;
+//     border-bottom: 2px solid #111;
+//   }
+// }

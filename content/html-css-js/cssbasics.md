@@ -10,7 +10,7 @@ In HTML, we link to a CSS file by adding:
 ```
 
 to our &lt;head&gt; tag. Keep in mind that you are not restricted to using that
-"styles.css" filename, though during your time at Epicodus, it's probably better that you do 
+"styles.css" filename, though during your time at Epicodus, it's probably better that you do. 
 Your pathing will usually always be in a css/ folder, but as you progress through
 class material, the pathing to that folder may vary (GHpages, static files,
 etc).
@@ -23,7 +23,7 @@ body {
 }
 ```
 would do great. If you reload the page and you don't see those changes, 9 times
-out of 10 will be that things are linked up right, so double check that first.
+out of 10 will be that things aren't linked up right, so double check that first.
 (A common mistake: style.css vs styles.css).
 
 Pro-tip: If you're a perfectionist and are making frequent changes to your CSS

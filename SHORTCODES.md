@@ -14,7 +14,7 @@ Creates a bulleted item to use give credit to contributor with `name`.
   <dt>name={str}</dt>
   <dd>Name you'd like to be credited with, required to use this shortcode</dd>
   <dt>github={str}</dt>
-  <dd>Username of github</dd>
+  <dd>Username on github</dd>
   <dt>linkedin={str}</dt>
   <dd>Public URL name part in your linkedin URL (ex: https//www.linkedin.com/in/{name part})</dd>
   <dt>site={str} & site_name={str}</dt>

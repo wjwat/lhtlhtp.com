@@ -1,7 +1,9 @@
 +++
-title = ""
+title = "Test page"
 weight = 1
-updated = 2022-03-26
+updated = 2022-04-03
+[extra]
+hidden = true
 +++
 
 As we work on LHTLHTP.com this section will eventually be removed. Use this to

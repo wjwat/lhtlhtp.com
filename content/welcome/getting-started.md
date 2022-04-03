@@ -1,7 +1,7 @@
 +++
 title = "Getting Started"
 weight = 1
-updated = 2022-03-14
+updated = 2022-03-31
 +++
 
 Welcome to {{ lhtlhtp() }}, your official companion site to

@@ -32,11 +32,12 @@
       <ul>
         {% for p in section.subsections %}
             {% set subsection = get_section(path=p) %}
-            {% if subsection.title == "test" %}{% continue %}{% endif %}
+            {% if subsection.extra.hidden %}{% continue %}{% endif %}
             <li>
                 <span class="documentation__sidebar__title">{{ subsection.title }}</span>
                 <ul>
                     {% for page in subsection.pages %}
+                    {% if page.extra.hidden %}{% continue %}{% endif %}
                         <li class="{% if current_path == page.path %}active{% endif %}">
                             <a href="{{page.permalink}}">{{page.title}}</a>
                         </li>

@@ -1,8 +1,8 @@
 # [LHTLHTP.COM](https://lhtlhtp.com/)
 
 A companion site to [learnhowtoprogram.com](https://www.learnhowtoprogram.com/),
-a site built to be used in the [Epicodus](https://www.epicodus.com/) coding
-boot camp.
+a site built to be used during your time at the
+[Epicodus](https://www.epicodus.com/) coding boot camp.
 
 ## Who We Are
 
@@ -20,6 +20,12 @@ of the site itself. You can find that section [here](https://lhtlhtp.com/contrib
 If you're not comfortable opening a pull request, or submitting content directly
 then please open an issue for any typos, broken links, unclear sentences, or
 anything else you feel can make our site better.
+
+## What To Expect
+
+Content on the site will either aim to reinforce concepts introduced by
+[learnhowtoprogram.com](https://www.learnhowtoprogram.com/), or expand beyond to
+those things that will make you a better developer.
 
 ## Ways To Reach Us
 

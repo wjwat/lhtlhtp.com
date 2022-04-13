@@ -13,7 +13,10 @@ easier to contribute in the future.
 
 ## Writing The Code & Content
 
-- [Install Zola](https://www.getzola.org/documentation/getting-started/installation/) (we also have [a section](http://127.0.0.1:1111/contributing/built/#zola) on installing Zola on our site.)
+- [Install
+  Zola](https://www.getzola.org/documentation/getting-started/installation/) (we
+  also have [a section](@/contributing/built.md#zola) on
+  installing Zola on our site.)
 - Fork the repo to your account
 - Clone the repo to your local machine
 - Create a branch to make your changes on.

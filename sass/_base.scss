@@ -94,6 +94,10 @@ blockquote {
   }
 }
 
+li > p {
+  margin-top: 0.10rem;
+  margin-bottom: 0;
+}
 
 // This needs a lot of work, and may be best used in a shortcode so we can do
 // things like merge columns/rows, and keep our data in something saner like

@@ -50,6 +50,12 @@ a {{ repo(text="pull request") }}.
 
   A fantastic resource for helping to learn the ins and outs of Razor Pages.
 
+- [Little ASP.NET Core Book](https://nbarbettini.gitbooks.io/little-asp-net-core-book/content/)
+
+  One of the best resources to help expand your understanding of the lessons
+  on learnhowtoprogram.com. Best if used while you go through the courses at
+  Epicodus that cover the same material.
+
 ## Ruby
 
 - If there are any good Ruby references please open an issue to help us fill

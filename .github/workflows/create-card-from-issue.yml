@@ -1,0 +1,21 @@
+# Github Action workflow that creates a Github project card when an issue is created
+
+on: 
+  issues:
+    types: [ opened ]
+    
+env:
+  GITHUB_REPO_PROJECT_NAME: GHA Test
+  COLUMN_FOR_NEW_CARDS: To do
+
+
+name: Create project card from issue
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create or Update Project Card
+        uses: peter-evans/create-or-update-project-card@v2
+        with:
+          project-name: ${{ env.GITHUB_REPO_PROJECT_NAME }}
+          column-name: ${{ env.COLUMN_FOR_NEW_CARDS }}

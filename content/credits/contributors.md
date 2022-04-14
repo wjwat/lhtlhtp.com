@@ -17,6 +17,7 @@ updated = 2022-03-26
 {{ contributor(name="Alex Adamovic", github="alexadamovic") }}
 {{ contributor(name="Andy Plymate", github="Playmatea") }}
 {{ contributor(name="Brenna Lavin", github="lavinbrenna") }}
+{{ contributor(name="Dallas Slaughter", github="slaughtr") }}
 {{ contributor(name="Ryan Bass", github="probablynotryan") }}
 {{ contributor(name="William Jameson", github="wcjameson") }}
 {{ contributor(name="Will W.", github="wjwat", linkedin="wjwat", site="https://wjwat.org/", site_name="wjwat.org") }}

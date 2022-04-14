@@ -5,7 +5,7 @@ on:
     types: [ opened, edited ]
     
 env:
-  GITHUB_REPO_PROJECT_NAME: Testing
+  GITHUB_REPO_PROJECT_NAME: Issues
   COLUMN_FOR_NEW_CARDS: To do
 
 

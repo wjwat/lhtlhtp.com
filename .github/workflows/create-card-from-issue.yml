@@ -5,13 +5,13 @@ on:
     types: [ opened ]
     
 env:
-  GITHUB_REPO_PROJECT_NAME: GHA Test
+  GITHUB_REPO_PROJECT_NAME: Testing
   COLUMN_FOR_NEW_CARDS: To do
 
 
 name: Create project card from issue
 jobs:
-  build:
+  create-card:
     runs-on: ubuntu-latest
     steps:
       - name: Create or Update Project Card

@@ -48,3 +48,7 @@ https://github.com/raphlinus/pulldown-cmark/issues/67
 
 This is a discussion about description lists on the CommonMark forum.
 https://talk.commonmark.org/t/description-list/289
+
+## License
+
+[MIT](https://github.com/wjwat/lhtlhtp.com/blob/main/LICENSE)

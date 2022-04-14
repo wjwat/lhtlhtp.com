@@ -4,7 +4,7 @@
 title = "test"
 weight = 10000
 sort_by = "weight"
-redirect_to = "~/wjwat/hola"
+redirect_to = "z/wjwat/hola"
 insert_anchor_links = "left"
 [extra]
 hidden = true

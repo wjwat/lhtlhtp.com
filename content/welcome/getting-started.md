@@ -1,7 +1,7 @@
 +++
 title = "Getting Started"
 weight = 1
-updated = 2022-03-31
+updated = 2022-04-24
 +++
 
 Welcome to {{ lhtlhtp() }}, your official companion site to
@@ -18,7 +18,7 @@ to the sections you'll find on LearnHowToProgram.com with a focus on those
 sections we found needing further exploration or were particularly difficult.
 
 It may seem like a lot to process at first, but as you immerse yourself into the
-flow of developing you'll find that reading and understanding large volumes of
+flow of developing you'll find that reading, and understanding, large volumes of
 information comes easier.
 
 ## Why (LHT)LHTP.com?

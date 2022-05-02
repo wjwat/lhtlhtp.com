@@ -1,13 +1,14 @@
 +++
 title = "Tools"
 weight = 2
-updated = 2022-04-24
+updated = 2022-04-26
+# Should pyenv/rvm/asdf be added into the `nvm` section, or their own sections?
 +++
 
 Here are some tools we think will help streamline your workflow, and make you a
 more efficient developer.
 
-## gh
+## gh -- GitHub CLI App
 
 `gh` is the CLI (command-line interface) for GitHub. It is a flexible, powerful
 tool that allows you to manage most (if not all) of the features you're provided
@@ -125,7 +126,7 @@ $ gh repo create
 ✓ Pushed commits to https://github.com/wjwat/tools_examples.git
 ```
 
-## Further Exploration
+### Links
 
 * [`gh` site](https://cli.github.com/)
 * [`gh` manual](https://cli.github.com/manual/)
@@ -134,9 +135,73 @@ $ gh repo create
 * [`gh repo create` documentation](https://cli.github.com/manual/gh_repo_create)
 
 
-## nvm/pyenv/rvm/asdf
-
 ## rg
+
+* [`ripgrep` repo](https://github.com/BurntSushi/ripgrep)
+
+## nvm -- Node Version Manager
+
+From the `nvm` repo:
+
+> `nvm` allows you to quickly install and use different versions of node via the
+> command line.
+>  
+> **Example:**
+>  
+> ```sh
+> $ nvm use 16
+> Now using node v16.9.1 (npm v7.21.1)
+> $ node -v
+> v16.9.1
+> $ nvm use 14
+> Now using node v14.18.0 (npm v6.14.15)
+> $ node -v
+> v14.18.0
+> $ nvm install 12
+> Now using node v12.22.6 (npm v6.14.5)
+> $ node -v
+> v12.22.6
+> ```
+
+Why you should care: during your time at Epicodus you are guaranteed to run into
+version issues with the programs and libraries you use. If you've ever had to
+uninstall `Node`, and then reinstall a different version just to have the same
+error pop up afterwards you'll immediately be able to see the value of being
+able to keep, and manage, multiple versions of `Node` & `npm` on hand and
+useable with just a short command.
+
+### Installation
+
+Installation of `nvm` is not as simple as some other tools in this list. Please
+take a look at the `Installing and Updating` section in the `nvm` README for
+instructions on how to install it. This section also includes troubleshooting
+tips as well.
+
+#### Installation on Windows
+
+`nvm` does not support Windows out of the box so you'll have to use another
+program which recreates (mostly) the `nvm` functionality called
+**`nvm-windows`**. Installation of the tool itself is fairly simple, but there
+are a few steps you should take to make sure you don't break anything with your
+current setup.
+
+1. Uninstall any pre-existing Node installations.
+2. Backup your global `npmrc` config file (`%AppData%\npm\etc\npmrc`)
+3. Install `nvm-windows`
+4. Reinstall any global utilities
+
+`nvm-windows` is available on both Chocolatey & Scoop, and a Windows installer
+is available on it's GitHub repo.
+
+### Caveat
+
+Any packages installed globally with a version of `npm` managed by `nvm` will
+only be usable if you are currently using that version of `npm`. 
+
+### Links
+
+* [`nvm` repo](https://github.com/nvm-sh/nvm)
+* [`nvm-windows` repo](https://github.com/coreybutler/nvm-windows)
 
 ## git
 

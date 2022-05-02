@@ -23,7 +23,7 @@ having to scroll around to make sense of what is going on.
 Our example below only includes four rows for our database, but imagine a
 scenario in which you have to seed your database with 10, 50, 100 pieces of
 data! Creating a single JSON file as the source for that seed, and then using
-tools that can 'speak' JSON brings a lot of potential to what you can do with
+tools that can 'speak' JSON, brings a lot of potential to what you can do with
 your seed data.
 
 - Create your model

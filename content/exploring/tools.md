@@ -137,6 +137,17 @@ $ gh repo create
 
 ## rg
 
+From the `ripgrep` repo:
+
+> ripgrep is a line-oriented search tool that recursively searches the current
+> directory for a regex pattern. By default, ripgrep will respect gitignore
+> rules and automatically skip hidden files/directories and binary files.
+> ripgrep has first class support on Windows, macOS and Linux, with binary
+> downloads available for every release. ripgrep is similar to other popular
+> search tools like The Silver Searcher, ack and grep.
+
+Why you should care: You've reached the end of your time at Epicodus and now you're off to your internship. Things are going great until that first day when they sit you down, hand you a laptop, and tell you to clone their giant 20-year old repo, and a bug to work on. Where do you start? Assuming you haven't been pointed in the right direction by your mentor/manager you start with ripgrep!
+
 * [`ripgrep` repo](https://github.com/BurntSushi/ripgrep)
 
 ## nvm -- Node Version Manager

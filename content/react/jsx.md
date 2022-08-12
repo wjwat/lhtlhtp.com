@@ -4,14 +4,16 @@ weight = 2
 updated = 2022-07-29 
 +++
 
+### I'm JSX-y and I know it
+
 JSX is pretty awesome, being it's as handy as a [template
 engine](https://www.educative.io/answers/what-are-template-engines) but includes
-all that great Javascript functionality. While you aren't required to use JSX
-when you build React Apps, it's a really neat tool that's hard not to use. Babel
-is responsible for converting JSX into fragments/elements that can be seen on
-the DOM.
+all that great Javascript functionality you've come to know and love. While you
+aren't required to use JSX when you build React Apps, it's a really neat tool
+that's hard not to use. Babel is responsible for converting JSX into
+fragments/elements that can be seen on the DOM.
 
-Whenever you use curly braces inside your return fragement, you're calling for
+Whenever you use curly braces inside your return fragment, you're calling for
 Javascript. For example,
 
 ```js
@@ -44,7 +46,7 @@ export default function Example() {
 ```
 
 You can also use it in all sorts of different ways, like if you wanted a
-particular style to be reused throughout your code:
+particular style to be reused throughout your component/code:
 
 ```js
 ...
@@ -70,7 +72,7 @@ There's a few other thisses and thats that are also different when you play with
 that sort of thing (and React will let be sure to let you know when it can't
 compile).
 
-You can also see less-consistent variables using state and props, but we'll look
+You can also see less-consistent variables using state, but we'll look
 more at that when we look at components. But the idea is, you can pass an object
 (called state) from component to a different (children) components using
 something called 'props'. 

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Components vs State vs Props | LHTLHTP</title>
+  
+  <link rel="stylesheet" href="https://lhtlhtp.com/site.css"/>
+  <link rel="icon" href="https://lhtlhtp.com/favicon.ico"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="header__logo" href="/">(LHT)LHTP</a>
+      <a class="header" href="https://www.learnhowtoprogram.com/">LHTP</a>
+      <a class="header" href="https://www.epicodus.com/">Epicodus</a>
+      <a class="header" href="https://epicenter.epicodus.com/">Epicenter</a>
+      <div class="search-container">
+        <input id="search" type="search" placeholder="🔎 Search the docs">
+  
+        <div class="search-results">
+            <div class="search-results__items"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+  
+  <div class="documentation">
+    <aside class="documentation__sidebar">
+      <ul>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">Welcome</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;welcome&#x2F;getting-started&#x2F;">Getting Started</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">HTML&#x2F;CSS&#x2F;JS</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;html-css-js&#x2F;htmlbasics&#x2F;">HTML Basics</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;html-css-js&#x2F;cssbasics&#x2F;">CSS Basics</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;html-css-js&#x2F;jsbasics&#x2F;">JS Basics</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;html-css-js&#x2F;gitcommands&#x2F;">Git Commands</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;html-css-js&#x2F;branching&#x2F;">Branching</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;html-css-js&#x2F;looping&#x2F;">Looping</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">Intermediate JS</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;javascript&#x2F;methods&#x2F;">Methods</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;javascript&#x2F;regex&#x2F;">RegEx</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">C#</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;csharp&#x2F;reading-the-docs&#x2F;">Reading the Docs</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;csharp&#x2F;top-level&#x2F;">Top Level Statements</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;csharp&#x2F;seeding&#x2F;">Seeding Your Database</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">Ruby</span>
+                <ul>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">React</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;react&#x2F;intro&#x2F;">Intro to React</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;react&#x2F;jsx&#x2F;">JSX</a>
+                        </li>
+                    
+                    
+                        <li class="active">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;react&#x2F;statevsprops&#x2F;">Components vs State vs Props</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">Exploring</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;exploring&#x2F;value&#x2F;">Adding Value</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;exploring&#x2F;tools&#x2F;">Tools</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;exploring&#x2F;hosting&#x2F;">Hosting</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;exploring&#x2F;links&#x2F;">Links</a>
+                        </li>
+                    
+                    
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">References</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;refs&#x2F;links&#x2F;">Links</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;refs&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">Contributing</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;contributing&#x2F;built&#x2F;">How the Site is Built</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;contributing&#x2F;issues&#x2F;">Issues &amp; PRs</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;contributing&#x2F;structure&#x2F;">Site Structure</a>
+                        </li>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;contributing&#x2F;contributing&#x2F;">Contributing</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            <li>
+                <span class="documentation__sidebar__title">Credits</span>
+                <ul>
+                    
+                    
+                        <li class="">
+                            <a href="https:&#x2F;&#x2F;lhtlhtp.com&#x2F;credits&#x2F;contributors&#x2F;">Contributors</a>
+                        </li>
+                    
+                </ul>
+            </li>
+        
+            
+            
+            
+            
+      </ul>
+    </aside>
+    <div class="documentation__content">
+      
+
+  <h1>Components vs State vs Props</h1>
+  
+  
+  <p>As we've learned at LHTP, there are two types of components that are used in
+React. </p>
+<p>First, the easy/fun one: <strong>Functional Components</strong>. All it really does is import
+the React Libraries using 'import React from &quot;react&quot;', import any children
+components, and call a function that returns a div or fragment and some JSX.</p>
+<pre data-lang="js" style="background-color:#2b2c2f;color:#cccece;" class="language-js "><code class="language-js" data-lang="js"><span style="color:#c594c5;">import </span><span>React </span><span style="color:#c594c5;">from </span><span style="color:#5fb3b3;">&quot;</span><span style="color:#99c794;">react</span><span style="color:#5fb3b3;">&quot;;
+</span><span style="color:#5f6364;">// import SomeChildComponent from &#39;./PathTo/SomeChildComponent&#39;;
+</span><span>
+</span><span style="color:#c594c5;">export default function </span><span style="color:#6699cc;">ExampleFunctionalComponent</span><span style="color:#5fb3b3;">() {
+</span><span>  </span><span style="color:#c594c5;">return </span><span>(
+</span><span>    </span><span style="color:#5fb3b3;">&lt;&gt;
+</span><span>      &lt;h1&gt;Hello World</span><span style="color:#5fb3b3;">!&lt;/</span><span>h1</span><span style="color:#5fb3b3;">&gt;
+</span><span>    </span><span style="color:#5fb3b3;">&lt;/&gt;
+</span><span>  )
+</span><span style="color:#5fb3b3;">}
+</span><span>
+</span></code></pre>
+<p>LHTP mentions that Functional Components can not change state in any way. Nor
+should they have to. They're there to return JSX, not witchcraft. They can,
+however, use a read-only version of state called props to allow us to read state
+from a parent Class Component. </p>
+<p>Let's change a few things so that our Functional Component brings in props as an
+object argument, and then calls a key of props called &quot;mysteryString&quot;, which
+will eventually be set to 'Hello World!'.</p>
+<pre data-lang="js" style="background-color:#2b2c2f;color:#cccece;" class="language-js "><code class="language-js" data-lang="js"><span style="color:#c594c5;">import </span><span>React </span><span style="color:#c594c5;">from </span><span style="color:#5fb3b3;">&quot;</span><span style="color:#99c794;">react</span><span style="color:#5fb3b3;">&quot;;
+</span><span>
+</span><span style="color:#c594c5;">export default function </span><span style="color:#6699cc;">ExampleFunctionalComponent</span><span style="color:#5fb3b3;">(</span><span style="color:#f99157;">props</span><span style="color:#5fb3b3;">) {
+</span><span>  </span><span style="color:#5fb3b3;">&lt;&gt;
+</span><span>    &lt;h1&gt;</span><span style="color:#5fb3b3;">{</span><span>props.mysteryString</span><span style="color:#5fb3b3;">}&lt;/</span><span>h1</span><span style="color:#5fb3b3;">&gt;
+</span><span>  </span><span style="color:#5fb3b3;">&lt;/&gt;
+</span><span style="color:#5fb3b3;">}
+</span></code></pre>
+<p>Those props are going have to be sent to it from a different, more complicated
+and less fun <strong>Class Component</strong>. Bare with me, but let's pretend App.js is the
+entry point of our React App.</p>
+<pre data-lang="js" style="background-color:#2b2c2f;color:#cccece;" class="language-js "><code class="language-js" data-lang="js"><span style="color:#c594c5;">import </span><span>React </span><span style="color:#c594c5;">from </span><span style="color:#5fb3b3;">&quot;</span><span style="color:#99c794;">react</span><span style="color:#5fb3b3;">&quot;;
+</span><span style="color:#c594c5;">import </span><span>ExampleClassComponent </span><span style="color:#c594c5;">from </span><span style="color:#5fb3b3;">&quot;</span><span style="color:#99c794;">./ExampleClassComponent</span><span style="color:#5fb3b3;">&quot;;
+</span><span>
+</span><span style="color:#c594c5;">export default function </span><span style="color:#6699cc;">App </span><span style="color:#5fb3b3;">() {
+</span><span>  </span><span style="color:#c594c5;">return </span><span>(
+</span><span>    </span><span style="color:#5fb3b3;">&lt;</span><span>ExampleClassComponent </span><span style="color:#5fb3b3;">/&gt;
+</span><span>  )
+</span><span style="color:#5fb3b3;">}
+</span></code></pre>
+<p>That'll setup the class component below, which is called from App.js, then sets
+state, and sends part of it as a prop to our ExampleFunctionalComponent:</p>
+<pre data-lang="js" style="background-color:#2b2c2f;color:#cccece;" class="language-js "><code class="language-js" data-lang="js"><span style="color:#c594c5;">import </span><span>React </span><span style="color:#c594c5;">from </span><span style="color:#5fb3b3;">&quot;</span><span style="color:#99c794;">react</span><span style="color:#5fb3b3;">&quot;;
+</span><span style="color:#c594c5;">import </span><span>ExampleFunctionalComponent </span><span style="color:#c594c5;">from </span><span style="color:#5fb3b3;">&quot;</span><span style="color:#99c794;">./ExampleFunctionalComponent</span><span style="color:#5fb3b3;">&quot;;
+</span><span>
+</span><span style="color:#c594c5;">export default class </span><span style="color:#fac863;">ExampleClassComponent </span><span style="color:#c594c5;">extends </span><span>React</span><span style="color:#5fb3b3;">.</span><span style="color:#99c794;">Component </span><span style="color:#5fb3b3;">{
+</span><span>  </span><span style="color:#c594c5;">constructor</span><span style="color:#5fb3b3;">(</span><span style="color:#f99157;">props</span><span style="color:#5fb3b3;">){
+</span><span>    </span><span style="color:#ec5f67;">super</span><span>(props)</span><span style="color:#5fb3b3;">;
+</span><span>    </span><span style="color:#ec5f67;">this</span><span style="color:#5fb3b3;">.</span><span>state </span><span style="color:#5fb3b3;">= { </span><span>stateString</span><span style="color:#5fb3b3;">: &#39;</span><span style="color:#99c794;">Hello World!</span><span style="color:#5fb3b3;">&#39;}
+</span><span>  </span><span style="color:#5fb3b3;">}
+</span><span>  </span><span style="color:#6699cc;">render</span><span style="color:#5fb3b3;">() {
+</span><span>    </span><span style="color:#c594c5;">return </span><span>(
+</span><span>      </span><span style="color:#5fb3b3;">&lt;</span><span style="color:#f99157;">ExampleFunctionalComponent
+</span><span>        mysteryString </span><span style="color:#5fb3b3;">= {</span><span>this.state.stateString</span><span style="color:#5fb3b3;">} 
+</span><span>        </span><span style="color:#5fb3b3;">/&gt;
+</span><span>    )
+</span><span>  </span><span style="color:#5fb3b3;">}
+</span><span style="color:#5fb3b3;">}
+</span></code></pre>
+<p>Now we're glossing over why we need to use super(props) and a constructor, but
+yeah. We're going to do that. That's how it goes. So assuming the class
+component is the parent of the ExampleFunctionalComponent one, it will first set
+an initial state to { stateString: 'Hello World!' }. It then returns the
+ExampleFunctionalComponent and sends mysteryString (which has a value of
+'this.state.stateString') to it using props.</p>
+<p>So on the functional class side, it sees props (scroll up and you'll see it used
+as an argument) being carried over and can be used like an object. So we can say </p>
+<pre data-lang="js" style="background-color:#2b2c2f;color:#cccece;" class="language-js "><code class="language-js" data-lang="js"><span style="color:#c594c5;">return </span><span>(
+</span><span>  &lt;h1&gt;</span><span style="color:#5fb3b3;">{</span><span>props.mysteryString</span><span style="color:#5fb3b3;">}&lt;/</span><span>h1</span><span style="color:#5fb3b3;">&gt; </span><span style="color:#5f6364;">// &#39;Hello World!&#39;
+</span><span>)
+</span></code></pre>
+<p>Hopefully you're a little less lost. Did we make things more complicated? Let us
+know.</p>
+
+
+
+    </div>
+  </div>
+  </main>
+  <footer>
+    <p>©2022 — LHTLHTP Team
+    
+    | Page Last Updated: 2022-08-07
+    
+    </p>
+  </footer>
+
+  <script type="text/javascript" src="https://lhtlhtp.com/elasticlunr.min.js"></script>
+  <script type="text/javascript" src="https://lhtlhtp.com/search_index.en.js"></script>
+  <script type="text/javascript" src="https://lhtlhtp.com/search.js"></script>
+  <script type="text/javascript" src="https://lhtlhtp.com/site.js"></script>
+</body>
+</html>
